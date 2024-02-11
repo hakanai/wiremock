@@ -1,0 +1,811 @@
+repo_name: hakanai/wiremock
+report_id: 68ca0694c8f024fbb326c2c35cc1657c
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T01:36:42+00:00'
+requested_by: tomakehurst
+provider: github
+branch: master
+detected_tools_count: 55
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/hakanai/wiremock
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hakanai/wiremock
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hakanai/wiremock
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/hakanai/wiremock
+  detection_source: Repo Metadata
+- name: Scala
+  description: A pure-bred object-oriented language that runs on the JVM
+  website_url: http://www.scala-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1012/scala.png
+  detection_source_url: https://github.com/hakanai/wiremock
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/package.json
+  detection_source: docs-v2/package.json
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-07-05 12:27:32.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/package.json
+  detection_source: docs-v2/package.json
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-07-05 12:27:32.000000000 Z
+- name: Nchan
+  description: A scalable, flexible pub/sub server for the modern web
+  website_url: https://nchan.io/
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/10894/nchan_icon.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/package.json
+  detection_source: docs-v2/package.json
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-07-05 12:27:32.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/wiremock
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-19 14:38:33.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: testlogging/pom.xml
+  last_updated_by: Robert Elliot
+  last_updated_on: 2013-02-19 23:17:54.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  version: 1.7.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2015-07-23 20:56:01.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/testlogging/pom.xml
+  detection_source: testlogging/pom.xml
+  last_updated_by: Robert Elliot
+  last_updated_on: 2013-02-19 23:17:54.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/Gemfile
+  detection_source: docs-v2/Gemfile
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-07-05 12:27:32.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2011-10-09 15:29:00.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: R. Michael Rogers
+  last_updated_on: 2015-02-13 04:39:37.000000000 Z
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/Vagrantfile
+  detection_source: Vagrantfile
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2015-02-24 13:35:54.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/package.json
+  detection_source: docs-v2/package.json
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-07-05 12:27:32.000000000 Z
+- name: RAML
+  description: RESTful API Modeling Language (RAML) makes it easy to manage the whole
+    API lifecycle from design to sharing
+  website_url: http://raml.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/4083/JSGv7dnx.png
+  detection_source_url: https://github.com/hakanai/wiremock
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/hakanai/wiremock
+  detection_source: Repo Metadata
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/hakanai/wiremock
+  detection_source: Repo Metadata
+- name: raml2html
+  description: i'm the package manager for javascript. problems? try @npm_support,
+    @npmstatus, and https://t.co/EYaDXk77Qj
+  website_url: https://www.npmjs.com/package/raml2html
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9926/q5ACQ8i3_normal.jpg
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/package.json
+  detection_source: docs-v2/package.json
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-11-03 17:05:10.000000000 Z
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  version: 1.0.7
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/testlogging/pom.xml
+  detection_source: testlogging/pom.xml
+  last_updated_by: Robert Elliot
+  last_updated_on: 2013-02-19 23:17:54.000000000 Z
+  vulnerabilities:
+  - name: QOS.ch Logback vulnerable to Deserialization of Untrusted Data
+    cve_id: CVE-2017-5929
+    cve_url: https://github.com/advisories/GHSA-vmfg-rjjm-rjrj
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.2.0
+  - name: logback serialization vulnerability
+    cve_id: CVE-2023-6378
+    cve_url: https://github.com/advisories/GHSA-vmq6-5m68-f53m
+    detected_date: Nov 30
+    severity: high
+    first_patched: 1.2.13
+- name: com.flipkart.zjsonpatch:zjsonpatch
+  description: Java Library to find / apply JSON Patches according to RFC 6902
+  version: 0.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-19 14:38:33.000000000 Z
+- name: com.github.jknack:handlebars
+  description: Logic-less and semantic templates with Java
+  version: 4.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 15:59:09.000000000 Z
+- name: com.github.tomakehurst:wiremock
+  description: A web service test double for all occasions
+  version: 2.1.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/sample-war/build.gradle
+  detection_source: sample-war/build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-07-08 21:30:05.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '20.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 15:59:09.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Denial of Service in Google Guava
+    cve_id: CVE-2018-10237
+    cve_url: https://github.com/advisories/GHSA-mvr2-9pj6-7w5j
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 24.1.1-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: com.jayway.jsonpath:json-path
+  description: Java port of Stefan Goessner JsonPath
+  version: 2.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-19 14:38:33.000000000 Z
+  vulnerabilities:
+  - name: json-path Out-of-bounds Write vulnerability
+    cve_id: CVE-2023-51074
+    cve_url: https://github.com/advisories/GHSA-pfh2-hfmq-phg5
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 2.9.0
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 16:03:41.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal and Improper Input Validation in Apache Commons IO
+    cve_id: CVE-2021-29425
+    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '2.7'
+- name: commons-logging:commons-logging
+  description: Apache Commons Logging is a thin adapter allowing configurable bridging
+    to other
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/testlogging/pom.xml
+  detection_source: testlogging/pom.xml
+  last_updated_by: Robert Elliot
+  last_updated_on: 2013-02-19 23:17:54.000000000 Z
+- name: javax.servlet:servlet-api
+  version: '2.4'
+  license: CDDL-1.0,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/sample-war/build.gradle
+  detection_source: sample-war/build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2012-01-05 13:52:32.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 15:57:57.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: log4j:log4j
+  description: Apache Log4j 1.2
+  version: 1.2.16
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/sample-war/build.gradle
+  detection_source: sample-war/build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2012-01-05 13:52:32.000000000 Z
+  vulnerabilities:
+  - name: SQL Injection in Log4j 1.2.x
+    cve_id: CVE-2022-23305
+    cve_url: https://github.com/advisories/GHSA-65fg-84f6-3jq3
+    detected_date: Jan 22
+    severity: critical
+    first_patched: 
+  - name: Deserialization of Untrusted Data in Apache Log4j
+    cve_id: CVE-2022-23307
+    cve_url: https://github.com/advisories/GHSA-f7vh-qwp3-x37m
+    detected_date: Nov 26
+    severity: critical
+    first_patched: 
+  - name: Deserialization of Untrusted Data in Log4j
+    cve_id: CVE-2019-17571
+    cve_url: https://github.com/advisories/GHSA-2qrg-x229-3v8q
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 
+  - name: Deserialization of Untrusted Data in Log4j 1.x
+    cve_id: CVE-2022-23302
+    cve_url: https://github.com/advisories/GHSA-w9p3-5cr8-m3jj
+    detected_date: Jan 22
+    severity: high
+    first_patched: 
+  - name: JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data
+    cve_id: CVE-2021-4104
+    cve_url: https://github.com/advisories/GHSA-fp5r-v3w9-4333
+    detected_date: Dec 15
+    severity: high
+    first_patched: 
+- name: net.sf.jopt-simple:jopt-simple
+  description: A Java library for parsing command line options
+  version: 5.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 16:00:32.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: '3.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 16:03:41.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  version: 4.5.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 16:03:41.000000000 Z
+  vulnerabilities:
+  - name: Cross-site scripting in Apache HttpClient
+    cve_id: CVE-2020-13956
+    cve_url: https://github.com/advisories/GHSA-7r82-7xv7-xcpj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.5.13
+- name: org.awaitility:awaitility
+  description: A Java DSL for synchronizing asynchronous operations
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 16:03:41.000000000 Z
+- name: org.hamcrest:hamcrest-all
+  description: A self-contained hamcrest jar containing all of the sub-modules in
+    a single artifact
+  version: '1.3'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 16:03:41.000000000 Z
+- name: org.jmock:jmock
+  description: Sonatype helps open source projects to set up Maven repositories on
+    https://oss.sonatype.org/
+  version: 2.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-19 14:38:33.000000000 Z
+- name: org.jmock:jmock-junit4
+  description: An expressive Mock Object library for Test Driven Development
+  version: 2.5.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-19 14:38:33.000000000 Z
+- name: org.littleshoot:littleproxy
+  description: LittleProxy is a high performance HTTP proxy written in Java and using
+    the Netty networking framework
+  version: 1.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 16:03:41.000000000 Z
+- name: org.scala-lang:scala-library
+  description: Standard library for the Scala Programming Language
+  version: 2.11.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 16:03:41.000000000 Z
+- name: org.skyscreamer:jsonassert
+  description: A library to develop RESTful but flexible APIs
+  version: 1.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-10-05 17:59:03.000000000 Z
+- name: org.slf4j:jcl-over-slf4j
+  description: JCL 1.2 implemented over SLF4J
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/testlogging/pom.xml
+  detection_source: testlogging/pom.xml
+  last_updated_by: Robert Elliot
+  last_updated_on: 2013-02-19 23:17:54.000000000 Z
+- name: org.slf4j:jul-to-slf4j
+  description: JUL to SLF4J bridge
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/testlogging/pom.xml
+  detection_source: testlogging/pom.xml
+  last_updated_by: Robert Elliot
+  last_updated_on: 2013-02-19 23:17:54.000000000 Z
+- name: org.slf4j:log4j-over-slf4j
+  description: Log4j implemented over SLF4J
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/testlogging/pom.xml
+  detection_source: testlogging/pom.xml
+  last_updated_by: Robert Elliot
+  last_updated_on: 2013-02-19 23:17:54.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-19 14:38:33.000000000 Z
+- name: org.slf4j:slf4j-log4j12
+  description: SLF4J LOG4J-12 Binding
+  version: 1.7.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2017-07-10 16:03:41.000000000 Z
+- name: json-schema-ref-parser
+  description: Parse, Resolve, and Dereference JSON Schema $ref pointers
+  package_url: https://www.npmjs.com/json-schema-ref-parser
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18337/default_505909b81a0b4c883dedb080d9d7c8b30a5918e8.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/package.json
+  detection_source: docs-v2/package.json
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-11-03 17:05:10.000000000 Z
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 3.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/package.json
+  detection_source: docs-v2/package.json
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-11-03 17:05:10.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+  - name: Denial of Service in node-sass
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-9v62-24cr-58cx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/package.json
+  detection_source: docs-v2/package.json
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-07-05 12:27:32.000000000 Z
+- name: onchange
+  description: Use glob patterns to watch file sets and run a command when anything
+    is added
+  package_url: https://www.npmjs.com/onchange
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16706/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/package.json
+  detection_source: docs-v2/package.json
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-07-05 12:27:32.000000000 Z
+- name: postcss-cli
+  description: CLI for PostCSS
+  package_url: https://www.npmjs.com/postcss-cli
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16326/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/package.json
+  detection_source: docs-v2/package.json
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-07-05 12:27:32.000000000 Z
+- name: uglify-js
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/uglify-js
+  version: 2.6.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15900/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/package.json
+  detection_source: docs-v2/package.json
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-07-05 12:27:32.000000000 Z
+- name: github-pages
+  description: Bootstrap the GitHub Pages Jekyll environment locally
+  package_url: https://rubygems.org/github-pages
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/hakanai/wiremock/blob/master/docs-v2/Gemfile
+  detection_source: docs-v2/Gemfile
+  last_updated_by: Tom Akehurst
+  last_updated_on: 2016-07-05 12:27:32.000000000 Z
